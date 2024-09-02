@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="AllInputServlet" method="post">
+	FirstName : <input type="text" name="FirstName"/><br><br>
+	BirthName : <input type="text" name="BirthName"/><br><br>
+	Email :<input type="text" name="Email"/><br><br>
+	Password :<input type="text" name="Password"/><br><br>
+	Gender :
+		Male <input type="radio" name="Gender" value="Male"/>
+		Female <input type="radio" name="Gender" value="female"/>
+		<br><br>
+	Hobby :
+		Crk: <input type="checkbox" name="hobby" value="ckt"/>
+		VB : <input type="checkbox" name="hobby" value="vb"/>
+		FB : <input type="checkbox" name="hobby" value="fb"/>
+		<br><br>
+	City :<select name="City" >
+				<option value="ahd">Ahmedabad</option>
+				<option value="srt">Surat</option>
+				<option value="mum">Mumbai</option>
+			</select>
+		<br><br>
+	Address : <textarea rows="10" cols="15" name="address"></textarea>
+	<br><br>
+	<input type="submit" value="save"/>
+	</form>
+</body>
+</html>
